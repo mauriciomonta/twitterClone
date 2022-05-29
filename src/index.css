@@ -1,0 +1,42 @@
+:root {
+	--background: #15202b;
+	--primary: #1d9bf0;
+	--white: #fff;
+	--grey: #808d9a;
+}
+
+body {
+	margin: 0;
+	font-family: 'chirp-regular', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	background-color: var(--background);
+	color: var(--white);
+}
+
+::-webkit-scrollbar {
+    width: 10px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+@font-face {
+	font-family: 'chirp-regular';
+	src: local('chirp-regular'), url(./fonts/chirp-regular-web.woff) format('woff');
+}
+@font-face {
+	font-family: 'chirp-medium';
+	src: local('chirp-medium'), url(./fonts/chirp-medium-web.woff) format('woff');
+}
+@font-face {
+	font-family: 'chirp-heavy';
+	src: local('chirp-heavy'), url(./fonts/chirp-heavy-web.woff) format('woff');
+}
+@font-face {
+	font-family: 'chirp-bold';
+	src: local('chirp-bold'), url(./fonts/chirp-bold-web.woff) format('woff');
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
